@@ -19,7 +19,7 @@ namespace Twitch
         {
             // Initialize spells
             Q = new Spell.Active(SpellSlot.Q);
-            W = new Spell.Skillshot(SpellSlot.W, 900, SkillShotType.Circular, 250, 1400, 275);
+            W = new Spell.Skillshot(SpellSlot.W, 910, SkillShotType.Circular, 260, 1450, 285);
             W.AllowedCollisionCount = Int32.MaxValue;
             E = new Spell.Active(SpellSlot.E, 1200);
             R = new Spell.Active(SpellSlot.R, 850);
