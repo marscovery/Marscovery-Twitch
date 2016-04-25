@@ -11,16 +11,16 @@ namespace Twitch
 {
     public static class Config
     {
-        private const string MenuName = "Twitch";
+        private const string MenuName = "Marscovery Twitch";
 
         private static readonly Menu Menu;
 
         static Config()
         {
             Menu = MainMenu.AddMenu(MenuName, MenuName.ToLower());
-            Menu.AddGroupLabel("Doctor Twitch");
-            Menu.AddLabel("Halo!");
-            Menu.AddLabel("Good Luck.");
+            Menu.AddGroupLabel("Marscovery Twitch");
+            Menu.AddLabel("Hello!");
+            Menu.AddLabel("Good Luck with Twitch.");
             ModesMenu.Initialize();
             PredictionMenu.Initialize();
             ManaManagerMenu.Initialize();
