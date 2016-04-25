@@ -19,10 +19,10 @@ namespace Twitch
         {
             // Initialize spells
             Q = new Spell.Active(SpellSlot.Q);
-            W = new Spell.Skillshot(SpellSlot.W, 910, SkillShotType.Circular, 260, 1450, 285);
+            W = new Spell.Skillshot(SpellSlot.W, 950, SkillShotType.Circular, 250, 1410, 285);
             W.AllowedCollisionCount = Int32.MaxValue;
             E = new Spell.Active(SpellSlot.E, 1200);
-            R = new Spell.Active(SpellSlot.R, 850);
+            R = new Spell.Active(SpellSlot.R, 975);
             Recall = new Spell.Active(SpellSlot.Recall);
 
             if (Player.Instance.Spellbook.GetSpell(SpellSlot.Summoner1).Name.Equals("summonerdot", StringComparison.CurrentCultureIgnoreCase))
