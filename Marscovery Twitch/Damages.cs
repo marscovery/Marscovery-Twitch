@@ -18,7 +18,7 @@ namespace Twitch
             }
             return
                 (int)
-                    (new int[] { 25, 42, 57, 72, 87 }[SpellManager.E.Level - 1]) +
+                    (new int[] { 25, 40, 55, 70, 85 }[SpellManager.E.Level - 1]) +
                      stacks * (new int[] { 20, 25, 30, 35, 40 }[SpellManager.E.Level - 1] + 0.2f * Player.Instance.TotalMagicalDamage + 0.25f * (Player.Instance.TotalAttackDamage - Player.Instance.BaseAttackDamage));
         }
 
